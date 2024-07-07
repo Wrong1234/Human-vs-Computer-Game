@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+h1{
+    height: 5rem;
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    color: crimson;
+}
+
+ img{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 3rem;
+    border: 1px solid black;
+    background-color: rgb(42, 113, 245);
+ }
+ .choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+ .count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem;
+ }
+
+ .user{
+    font-size: 20px;
+    padding: 20px 30px;
+ }
+ .computer{
+    font-size: 20px;
+ }
+ .btn{
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 1rem;
+    font-size: 20px;
+ }
+
+ .computer-point{
+    font-size: 30px;
+    color: rgb(77, 68, 21);
+ }
+ .user-point{
+    font-size: 30px;
+    color: rgb(8, 8, 243);
+ }
+ .user-id{
+   color: rgb(35, 95, 35);
+   font-size: 30px;
+ }
+
+ .computer-id{
+   color: rgb(235, 113, 8);
+   font-size: 30px;
+ }
